@@ -4,7 +4,7 @@ setup(
     name='lambdata-helper-benjs',
     version='0.0.1',
     description='A small project with datascience helper funcitons',
-    url='',
+    url='https://github.com/mariokart345/lambdata-helper-benjs#installation',
     author='DSPT10',
     author_email='',
     keywords='pandas help, help, pandas, lambdata',
