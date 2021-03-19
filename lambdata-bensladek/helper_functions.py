@@ -1,6 +1,7 @@
 def null_count(df):
     null = df.isnull().sum().sum()
-    return print(f'Your dataset has {null} null values.')
+    return print('Your dataset has {} null values.'.format(null))
+
 
 def train_test_split(df, frac):
     shape = df.shape[0]
@@ -20,4 +21,3 @@ def rm_outlier(df):
     lower, upper = q1 - (1.5 * iqr), q3 + (1.5 * iqr)
     df = df[~((df < lower) | (df > upper)).any(axis=1)]
     return df
-
