@@ -8,7 +8,7 @@ setup(
     author='DSPT10',
     author_email='',
     keywords='pandas help, help, pandas, lambdata',
-    packages=['lambdata-bensladek'],
+    packages=['lambdata_bensladek'],
     python_requires='>=3.6',
     install_requires=['pandas'],
 )
